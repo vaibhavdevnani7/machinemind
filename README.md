@@ -3,6 +3,8 @@ Developing and deploying to IoT devices has always been a huge pain, flashing mi
 
 This Framework has been designed in such a way that all you have to do is flash a single firmware on all your devices using a website which uses javascript for flashing also not requiring you to setup any development toolchains too.
 
+![alt text](webinterface.webp)
+
 Once after flashing you can configure your devices and make them connect to a wifi network or internet(not supported yet), and then talk to all of them using a single API.
 
 With the API, you can reflash the mcus wirelessly, access the filesystem, change wifi config, monitor variables, change config variables, monitor serial output, monitor device health and many more possibilities.
