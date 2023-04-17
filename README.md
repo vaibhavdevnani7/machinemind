@@ -20,13 +20,13 @@ The API and the framework currently only supports esp8266 and will be extended f
 
 The API currently has the following endpoints-
 
-/listdevices- lists the esp devices on the network
-/<device>/uploadbin- upload binaries for flashing on the device
-/<device>/variable/<method>- access the variables you defined for monitoring on the device, supports 2 methods list variables and get variable
-/<device>/config/<method>- access the config variables you defined for monitoring on the device, supports 3 methods list variables, get variable and change variable
-/<device>/healthstatus- monitor health parameters of the device
-/<device>/files/<method>- has 3 methods list files, get a file and upload a file, used to manage a device’s filesystem
-/<device>/serialout- get the serial output of any device
+/listdevices- lists the esp devices on the network <br />
+/<device>/uploadbin- upload binaries for flashing on the device <br />
+/<device>/variable/<method>- access the variables you defined for monitoring on the device, supports 2 methods list variables and get variable <br />
+/<device>/config/<method>- access the config variables you defined for monitoring on the device, supports 3 methods list variables, get variable and change variable <br />
+/<device>/healthstatus- monitor health parameters of the device <br />
+/<device>/files/<method>- has 3 methods list files, get a file and upload a file, used to manage a device’s filesystem <br />
+/<device>/serialout- get the serial output of any device <br />
 The API is in development right now and not complete yet, separate features have been tested and have been working just the consolidation is left as of now into the main API.
 
 This API can make the work of IoT development very easy by making the process of developing, deploying, and testing very easy and also API can also be used to make IoT systems very easily without the knowledge of complex frameworks and protocols.
